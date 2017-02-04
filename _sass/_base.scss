@@ -1,0 +1,131 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  background: #8D989C;
+  background: -webkit-linear-gradient(-90deg, #798385, #8D989C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, #798385,#8D989C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, #798385, #8D989C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, #798385, #8D989C); /* Standard syntax */
+  font-size: x-small; 
+}
+
+.panzoom {
+  text-align: center;
+  background: #000000;
+  background: -webkit-linear-gradient(-90deg, #798385, #8D989C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, #798385,#8D989C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, #798385, #8D989C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, #798385, #8D989C); /* Standard syntax */
+  height: 100%;
+  width: 100%;
+}
+
+#Layer_1 {
+  height:100%;
+  width:100%;
+}
+
+.controls {
+  position: absolute;
+  top: 60px;
+  left: calc(2%);
+}
+
+#zoom-in {
+  padding: 7px;
+  background: #ffffff;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px; 
+  border-bottom-width: 1px; 
+}
+
+#zoom-out {
+  padding: 7px;
+  border: 0px;
+  background: #ffffff;
+  border-bottom-left-radius: 10px; 
+  border-bottom-right-radius: 10px; 
+}
+
+#reset {
+  padding: 7px;
+  border: 0px;
+  border-radius: 10px;
+  background: #ffffff;
+  margin-top: 5px;
+}
+
+.bodypart {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.bodypart.opaque {
+  opacity: .6;
+}
+
+.glossary {
+  background: white;
+  padding-right: 20px;
+  padding-left: -15px;
+  opacity: .7;
+  border: 0px dotted black;
+  display: none;
+  min-height: 200px;
+  max-height: 95%;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  width: 220px;
+  border-radius: 7px;
+  overflow: auto;
+  font-family: "Verdana", Geneva, sans-serif;
+}
+
+.glossary-header {
+  text-align: center;
+}
+
+#csv-file {
+  position: absolute;
+  top: 0;
+  left: 20;
+}
+
+.glossary-definition.hidden {
+  display: none;
+}
+
+.glossary-list {
+  overflow: auto;
+  opacity: 1;
+}
+
+.drop-button{
+  margin: 0px;
+  border-radius: 20px;
+  border-style: dotted;
+  border-width: 1px;
+  background: none;
+  vertical-align: top;
+  padding: 0 2 2 2px;
+  line-height: 90%;
+  color: red;
+  opacity: .5;
+}
+
+.drop-button:hover {
+  background: #e34a33;
+  transition-delay:  .2s;
+  border-radius: 20px;
+  border-width: 0px;
+  color: white;
+  opacity: 1;
+}
