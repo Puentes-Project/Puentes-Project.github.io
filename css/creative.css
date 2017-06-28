@@ -186,7 +186,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(http://cdn.thedailybeast.com/content/dailybeast/articles/2011/06/30/billboard-liberation-artistically-redesigning-the-u-s-mexico-border-fence/jcr:content/image.crop.800.500.jpg/43648338.cached.jpg);
+    background-image: "./img/Vagamundos.png";
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
